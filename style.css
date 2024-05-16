@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+section {
+    width: 100%;
+}
+#topo {
+    background: rgb(176, 221, 251);
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#topo ul {
+    margin: 30px 0 20px 0;
+    width: 400px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#topo li {
+    color: rgb(36, 74, 97);
+}
+#topo a {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(36, 74, 97);
+}
+#topo img {
+    margin: 30px 0 10px 0;
+    width: 150px;
+    height: 150px;
+}
+#image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image img {
+    margin: 50px 0px 50px 0px;
+    width: 75%;
+    height: 500px;
+    box-sizing: border-box;
+}
+#sobre {
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sobre .textos {
+    content: '';
+    text-align: center;
+}
+#sobre h1 {
+    font-size: 40px;
+    font-weight: bold;
+    height: 20px;
+    color: rgb(26,26,24);
+}
+#sobre h2 {
+    color: rgb(40, 123, 175);
+    font-weight: 1;
+    height: 20px;
+    font-size: 28px;
+}
+#sobre img {
+    margin-top: 0;
+    height: 300px;
+    width: 500px;
+}
+#sobre p {
+    color: rgb(26,26,24);
+    width: 70vw;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 29px;
+}
+#sobre span {
+    color: rgb(56, 121, 159);
+    font-weight: bold;
+}
+#servicos {
+    background: rgb(29, 128, 193);
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .subtitulo {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        height: 40px;
+    }
+    .lista {
+        font-size: 25px;
+        line-height: 2;
+    }
+}
+#servicos h2 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+}
+#servicos p {
+    margin-top: 20px;
+    width: 800px;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+}
+#servicos span {
+    color: rgb(233, 246, 79);
+    font-weight: bold;
+}
+#corretores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+#corretores h2 {
+    margin: 70px 0px 0px 0px;
+    color: rgb(40, 123, 175);
+}
+#corretores img {
+    margin: 30px 0 0 0 ;
+    width: 35%;
+}
+#corretores p {
+    margin: 15px 0 0 0;
+    width: 75%;
+    height: 100px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-left: 15px;
+    color: rgb(26,26,24);
+}
+#corretores a {
+    color: blue;
+}
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(29, 128, 193);
+    height: 650px;
+    color: white;
+}
+#contato h2 {
+    font-size: 30px;
+}
+#contato iframe {
+    width: 50%;
+    height: 60%;
+}
+#contato p {
+    background-color: rgb(44, 44, 44);
+    margin: 30px 0 0 0;
+    padding: 15px 20px
+}
+#contato span {
+    color: rgb(243, 236, 57);
+}
+#contato ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contato li {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
